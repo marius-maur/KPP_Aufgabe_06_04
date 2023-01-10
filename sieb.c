@@ -17,6 +17,6 @@
 
   int main(){
     int zahlen[300];
-    befuelle_array(zahlen[]);
-    gib_primzahlen(zahlen[]);
+    befuelle_array(zahlen[300]);
+    gib_primzahlen(zahlen[300]);
   }
