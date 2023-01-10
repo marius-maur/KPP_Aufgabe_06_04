@@ -22,7 +22,7 @@
 
   int main(){
     int zahlen[300];
-    befuelle_array(zahlen[]);
+    befuelle_array(zahlen);
     for(int i; i < 300; i++){
     printf(" %i ", zahlen[i]);
     }
