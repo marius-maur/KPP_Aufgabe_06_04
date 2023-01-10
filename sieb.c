@@ -1,7 +1,7 @@
 #include <stdio.h>
 
   void befuelle_array(int array[]){
-    int size = sizeof(array[]) / sizeof(array[0]);
+    int size = sizeof(array) / sizeof(array[0]);
     for(int i; i <= size; i++){
       array[i] = 1+i;
     }
