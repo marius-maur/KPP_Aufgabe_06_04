@@ -23,5 +23,7 @@
   int main(){
     int zahlen[300];
     befuelle_array(zahlen);
-    gib_primzahlen(zahlen);
+    for(int i; i < 300; i++){
+    printf(" %i ", zahlen[i]);
+    }
   }
