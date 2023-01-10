@@ -10,11 +10,11 @@
     int size = sizeof(array) / sizeof(array[0]);
     
     for(int i; i<= size/2; i++){
-      if(%array[i]/i+1 != 0){
+      if(array[i]/i+1 % 0){
       printf(" %i ", array[i]);
       }
     }
-
+  }
   int main(){
     int zahlen[300];
     befuelle_array(zahlen);
