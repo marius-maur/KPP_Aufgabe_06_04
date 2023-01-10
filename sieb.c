@@ -10,10 +10,13 @@
   void gib_primzahlen(int array[]){
     int size = sizeof(array) / sizeof(array[0]);
     for(int i; i < size;i++){
-      if(array[i]%i+2 == 0){
-        array[i] = 0;
-      }
+        for(int y; y < size; y++){
+          if(array[y] % i+2 =! 0){
+            array[y] = 0;
+        }
+       }
     }
+    
     for(int z; z < size; z++){
       if(array[z] =! 0){
       printf(" %i ", array[z]);
