@@ -9,7 +9,7 @@
 
   void gib_primzahlen(int array[]){
     int size = sizeof(array) / sizeof(array[0]);
-    for(int i; i < size;i++){
+    for(int i; i < size/2;i++){
         for(int y; y < size; y++){
           if(array[y] % i+2 != 0){
             array[y] = 0;
